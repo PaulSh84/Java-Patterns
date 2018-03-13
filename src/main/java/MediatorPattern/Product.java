@@ -11,8 +11,7 @@ public class Product {
     }
 
     public BigDecimal calculateDiscount() {
-        return new DiscountCalculatorMediator
-                (productValue).calculate();
+        return new DiscountCalculatorMediator(productValue).calculate();
     }
 
 }
